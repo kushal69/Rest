@@ -11,12 +11,12 @@ public class Message {
 	private String message;
 	private String author;
 	private Date created;
-	
-	public Message(){
-		
+
+	public Message() {
+
 	}
-	
-	public Message (int id, String message, String author){
+
+	public Message(int id, String message, String author) {
 		this.id = id;
 		this.message = message;
 		this.author = author;
